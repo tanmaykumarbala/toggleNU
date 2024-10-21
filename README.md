@@ -1,7 +1,6 @@
 # toggleNU
 Toggle Number and Relative number
 
-# toggleNU
 Set number off/on
 
 > Vim-Plug:
