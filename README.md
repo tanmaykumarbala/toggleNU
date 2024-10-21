@@ -8,7 +8,7 @@ Set number off/on
 >> Plug 'tanmaykumarbala/toggleNU'
 
 
-Use leader t as default key maping.
+Use leader t as default key mapping.
 
 > For custom key binding. Use the below line in your .vimrc or init.vim file.
 >> let g:default_toogle_number_map_key_user = 'Your_key_Binding.'
