@@ -1,4 +1,4 @@
-if exists('g:default_toogle_map_key_user')
+if exists('g:default_toogle_number_map_key_user')
 	let g:default_toogle_number_map_key = g:default_toogle_number_map_key_user	
 else
 	let g:default_toogle_number_map_key = "<leader>n"
