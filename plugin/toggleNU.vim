@@ -4,8 +4,8 @@ else
 	let g:default_toogle_number_map_key = "<leader>n"
 endif
 
-""" Function to toogle number.
-function ToggleNU()
+""" Function to toggle number.
+function! ToggleNU()
 	if &l:nu == "1"
 		set nonu
 		set norelativenumber
@@ -20,6 +20,6 @@ endfunction
 """ Setting the command for easy refrence.
 command! -nargs=0 ToggleNumber :call ToggleNU()
 
-""" Default key maping.
+""" Default key mapping.
 execute 'nnoremap '.g:default_toogle_number_map_key.' :ToggleNumber <cr>'
 execute 'inoremap '.g:default_toogle_number_map_key.' <c-o>:ToggleNumber <cr>'
